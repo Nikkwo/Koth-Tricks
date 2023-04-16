@@ -44,4 +44,6 @@ export TERM=xterm-256color
 Search Suid's:
 find / -perm -u=s -ls 2>/dev/null > /tmp/.find &
 
+delete chattr:
+rm -rf /usr/bin/chattr
 ---END---
