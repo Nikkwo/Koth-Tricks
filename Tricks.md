@@ -3,7 +3,7 @@
 # if you need (sure will) to install "chattr" on a machine here's a gift: 
 
 ```
-https://github.com/fasc8/Chattr-for-KOTH/raw/master/chattr
+https://github.com/Macchimne/Chattr-for-Koth
 ```
 
 # if you want to create a simple web server in python (generally to download or install something from machine to machine): 
