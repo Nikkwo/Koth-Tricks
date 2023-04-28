@@ -72,4 +72,5 @@ find / -perm -u=s -ls 2>/dev/null > /tmp/.find &
 ```
 rm -rf /usr/bin/chattr
   ```
-# ---END---
+# Find Flags:
+find / -name flags
